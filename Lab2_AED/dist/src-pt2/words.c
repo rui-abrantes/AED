@@ -14,7 +14,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <strings.h>    /* strcasecmp() */
+#include <string.h>    /* strcasecmp() */
 
 #include "list.h"
 #include "words.h"
