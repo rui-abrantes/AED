@@ -22,6 +22,7 @@
 
 struct _t_palavra {
     char* pal;
+    float frequencia;
     int ocorrencias;
 };
 
@@ -192,7 +193,7 @@ void incOcorr(t_palavra *p)
 *****************************************************************************/
 void escreveUmaPalavra(t_palavra *p, FILE *fp)
 {
-    fprintf(fp,"%4d : %s\n", p->ocorrencias, p->pal);
+    fprintf(fp,"frequencia %f : %4d : %s \n",p->frequencia, p->ocorrencias, p->pal);
 }
 
 
@@ -210,6 +211,12 @@ void libertaPalavra(t_palavra *p)
     /* -- FREE MEMORY RESERVED FOR WORD -- */
     free(p->pal);
     free(p);
+
+    return;
+}
+
+void fazerFrequencia(t_palavra *p, int n_palavras_total){
+    p->frequencia =(float)  p->ocorrencias / n_palavras_total;
 
     return;
 }

@@ -33,5 +33,6 @@ int         getNocorr (t_palavra *p);
 void        incOcorr (t_palavra *p);
 void        escreveUmaPalavra (t_palavra *p,FILE *fp);
 void        libertaPalavra(t_palavra *p);
+void        fazerFrequencia(t_palavra *p, int n_palavras_total);
 
 #endif

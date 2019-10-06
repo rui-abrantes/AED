@@ -84,12 +84,22 @@ int main(int argc, char *argv[])
         numTotalPalavras++;
     }
 
+    
+    /*Inicializing the Frequency variable*/
+    aux = lp;
+    while(aux != NULL){
+        fazerFrequencia( (t_palavra *) getItemLista(aux), numTotalPalavras);
+        aux = getProxElementoLista(aux);
+    }
+
     /* open output file */
     fpOut = fopen (nomeFicheiroOut, "w");
     if(fpOut == NULL) {
         printf("ERROR cannot write output file %s\n", nomeFicheiroOut);
         exit(3);
     }
+
+
     /* check if it needs to be inverted and inverts it*/
     if(strcmp(argv[2],"FIM")== 0)
         lp = inverteLista(lp ,NULL);
