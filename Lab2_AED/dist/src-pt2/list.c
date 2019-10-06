@@ -52,18 +52,30 @@ t_lista  *iniLista(void)
 *****************************************************************************/
 t_lista  *criaNovoNoLista (t_lista* lp, Item this, int *err)
 {
-    t_lista *novoNo;
+    /*when we got the code, the words where being put on the beginning of the list
+    * we made it being put on the end of the list*/
+    t_lista *novoNo, *aux = lp;
 
     novoNo = (t_lista*) malloc(sizeof(t_lista));
     if(novoNo!=NULL)
     {
         novoNo->this = this;
-        novoNo->prox = lp;
-        lp = novoNo;
+        novoNo->prox = NULL;
+        if(aux == NULL){
+            lp = novoNo;
+        }
+        else{
+            while(aux->prox !=NULL)
+                aux= aux->prox;
+            aux->prox = novoNo;
+        }
+
+        
         *err = 0;
     } else
     {
         *err = 1;
+        /*insert text about not being able to allocate memory*/
     }
     return lp;
 }
@@ -94,7 +106,6 @@ Item getItemLista (t_lista *p)
 * Description: returns a pointer to an element of the list
 *
 *****************************************************************************/
-
 t_lista *getProxElementoLista(t_lista *p) {
 
     return p -> prox;
@@ -111,7 +122,6 @@ t_lista *getProxElementoLista(t_lista *p) {
 * Description: returns the number of items (nodes) in the list
 *
 *****************************************************************************/
-
 int numItensNaLista(t_lista *lp) {
     t_lista *aux;  /* auxiliar pointers to travel through the list */
     int conta = 0;
@@ -133,7 +143,6 @@ int numItensNaLista(t_lista *lp) {
 * Description: free list
 *
 *****************************************************************************/
-
 void libertaLista(t_lista *lp, void freeItem(Item)) {
     t_lista *aux, *newhead;  /* auxiliar pointers to travel through the list */
 
@@ -144,4 +153,28 @@ void libertaLista(t_lista *lp, void freeItem(Item)) {
     }
 
     return;
+}
+/******************************************************************************
+* inverteLista ()
+*
+* Arguments: Node1 -> pointer of the head of the list, Node2 -> pointer of the
+*  previous structure
+* Returns:  (t_lista*)
+* Side-Effects: Recursive function and the first time its called Node2 needs 
+*               to be NULL
+*
+* Description: Inverts the list
+*
+*****************************************************************************/
+t_lista * inverteLista(t_lista* Node1, t_lista* Node2){
+    t_lista *aux; /*it's going be pointing to the one we want to invert at the time*/
+
+    if(Node1->prox == NULL){
+        Node1->prox = Node2;
+        return Node1;
+    }
+    aux = Node1->prox;
+    Node1->prox = Node2;
+
+    return inverteLista(aux, Node1);
 }

@@ -59,9 +59,11 @@ int main(int argc, char *argv[])
 
     if(argc < 2)
         Usage(argv[0]);
+    else if (argc < 3)
+        Usage(argv[0]);        
 
     nomeFicheiroIn = argv[1];
-    nomeFicheiroOut = /* -- INSERT CODE to ALLOCATE MEMORY -- */
+    nomeFicheiroOut = (char * ) malloc ((strlen(argv[1]) + strlen(extOut)+1) * sizeof(char)); /* -- INSERT CODE to ALLOCATE MEMORY -- */
     if(nomeFicheiroOut == NULL)
         erroMemoria("Memory allocation for nomeFicheiroOut in main" );
 
@@ -88,6 +90,14 @@ int main(int argc, char *argv[])
         printf("ERROR cannot write output file %s\n", nomeFicheiroOut);
         exit(3);
     }
+    /* check if it needs to be inverted and inverts it*/
+    if(strcmp(argv[2],"FIM")== 0)
+        lp = inverteLista(lp ,NULL);
+    else if(strcmp(argv[2], "INICIO") == 0)
+        printf("A lista foi introduzida do inicio para o fim\n");
+    else 
+        printf("Não foi introduzido nenhuma opção de sort\n");
+
     /* write out words to output file */
     aux = lp;
     while(aux != NULL)
@@ -104,8 +114,10 @@ int main(int argc, char *argv[])
     libertaLista(lp, libertaItem);
 
     /* -- CLOSE ALL OPEN FILES -- */
+    fclose(fpIn);
+    fclose(fpOut);
 
     /* -- FREE ANY OTHER MEMORY YOU HAVE ALLOCATED -- */
-
+    free(nomeFicheiroOut);
     exit(0);
 }

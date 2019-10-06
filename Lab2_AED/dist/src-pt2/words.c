@@ -50,7 +50,7 @@ t_lista  *testaPalavra(t_lista *lp, char *novaPal)
     aux = lp;
     while (aux != NULL){
         pal = (t_palavra*) getItemLista(aux);
-        if( strcasecmp(getPalavra(pal),novaPal) == 0)
+        if( strcmp(getPalavra(pal),novaPal) == 0)
         {
             incOcorr(pal);
             return lp;
@@ -118,11 +118,11 @@ t_palavra  *criaPalavra(char *pal)
 {
     t_palavra *nova;
 
-    nova = /* INSERT CODE to ALLOCATE MEMORY */
+    nova = (t_palavra * ) malloc(sizeof(t_palavra));  /* INSERT CODE to ALLOCATE MEMORY */
     if(nova == NULL)
         erroMemoria("Reserve memory for new word in criaPalavra" );
 
-    nova -> pal = /* INSERT CODE to ALLOCATE MEMORY */
+    nova -> pal =(char*) malloc((strlen(pal) + 1) * sizeof(char)); /* INSERT CODE to ALLOCATE MEMORY */
     if(nova == NULL)
         erroMemoria("Reserve of name in criaPalavra" );
 
@@ -208,6 +208,8 @@ void escreveUmaPalavra(t_palavra *p, FILE *fp)
 void libertaPalavra(t_palavra *p)
 {
     /* -- FREE MEMORY RESERVED FOR WORD -- */
+    free(p->pal);
+    free(p);
 
     return;
 }
