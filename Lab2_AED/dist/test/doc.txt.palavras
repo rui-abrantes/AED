@@ -1,35 +1,35 @@
-1: Na
-1: sua
-1: área
-5: de
-1: trabalho
-1: encontra-se
-1: um
-2: ficheiro
-1: texto
-1: designado
-1: chave.txt
-1: contendo
-2: uma
-1: lista
-3: palavras
-1: chave:
-1: a
-1: primeira
-2: linha
-2: do
-1: contém
-1: o
-1: número
-2: chave,
-1: seguido
-1: comprimento
-1: máximo
-1: palavra;
-1: as
-1: restantes
-1: linhas
-1: correspondem
-1: às
-1: palavra
-1: por
+frequencia 0.021739 :    1 : por 
+frequencia 0.021739 :    1 : palavra 
+frequencia 0.021739 :    1 : ï¿½s 
+frequencia 0.021739 :    1 : correspondem 
+frequencia 0.021739 :    1 : linhas 
+frequencia 0.021739 :    1 : restantes 
+frequencia 0.021739 :    1 : as 
+frequencia 0.021739 :    1 : palavra; 
+frequencia 0.021739 :    1 : mï¿½ximo 
+frequencia 0.021739 :    1 : comprimento 
+frequencia 0.021739 :    1 : seguido 
+frequencia 0.043478 :    2 : chave, 
+frequencia 0.021739 :    1 : nï¿½mero 
+frequencia 0.021739 :    1 : o 
+frequencia 0.021739 :    1 : contï¿½m 
+frequencia 0.043478 :    2 : do 
+frequencia 0.043478 :    2 : linha 
+frequencia 0.021739 :    1 : primeira 
+frequencia 0.021739 :    1 : a 
+frequencia 0.021739 :    1 : chave: 
+frequencia 0.065217 :    3 : palavras 
+frequencia 0.021739 :    1 : lista 
+frequencia 0.043478 :    2 : uma 
+frequencia 0.021739 :    1 : contendo 
+frequencia 0.021739 :    1 : chave.txt 
+frequencia 0.021739 :    1 : designado 
+frequencia 0.021739 :    1 : texto 
+frequencia 0.043478 :    2 : ficheiro 
+frequencia 0.021739 :    1 : um 
+frequencia 0.021739 :    1 : encontra-se 
+frequencia 0.021739 :    1 : trabalho 
+frequencia 0.108696 :    5 : de 
+frequencia 0.021739 :    1 : ï¿½rea 
+frequencia 0.021739 :    1 : sua 
+frequencia 0.021739 :    1 : Na 

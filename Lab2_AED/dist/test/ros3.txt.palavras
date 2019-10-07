@@ -1,815 +1,815 @@
-2: **CombiningMultipleModalitiestoDetectLearner'sInterest
-20: We
-32: are
-2: interested
-66: in
-2: combining
-6: multiple
-2: modalities
-98: to
-6: detect
-2: affect.
-2: So
-2: far,
-2: most
-122: of
-144: the
-10: work
-16: affective
-2: computing
-4: focuses
-26: on
-10: only
-80: a
-2: single
-4: channel
-2: information.
-10: This
-4: extends
-4: earlier
-12: by
-2: incorporating
-6: information
-20: from
-2: modalities.
-42: The
-6: problem
-50: is
-2: posed
-30: as
-4: combination
-4: classifiers
-6: probabilistic
-4: framework
-48: that
-2: naturally
-2: explains
-2: concepts
-4: experts
-110: and
-2: critics.
-2: Each
-12: data
-8: has
-14: an
-4: expert
-4: associated
-2: generates
-4: beliefs
-14: about
-4: correct
-2: class
-6: using
-2: modality.
-2: Probabilistic
-4: models
-2: error
-2: critics,
-22: which
-2: predict
-2: performance
-4: individual
-2: current
-2: input,
-4: used
-4: combine
-2: class.
-4: demonstrate
-2: multi-sensor
-6: classification
-2: scheme
-8: task
-4: detecting
-10: state
-2: interest
-4: children
-2: trying
-2: solve
-2: puzzle.
-2: sensory
-4: face,
-2: postures
-2: puzzle
-2: combined
-18: we
-18: this
-6: method
-2: achieves
-4: much
-2: better
-4: recognition
-4: accuracy
-4: than
-6: based
-2: channels.
-2: Further,
-2: critic-driven
-2: averaging
-2: ,
-2: special
-2: case
-4: proposed
-2: framework,
-6: outperforms
-4: all
-6: other
-2: classifier
-2: methods
-4: applied
-2: problem.
-2: Detection
-6: Analysis
-2: Driver
-4: Stress
-2: Driving
-2: ideal
-2: test
-2: bed
-44: for
-20: stress
-14: natural
-4: situations.
-2: Four
-4: types
-4: physiological
-8: signals
-2: (electrocardiogram,
-2: electromyogram,
-2: respiration,
-4: skin
-2: conductivity
-4: related
-2: autonomic
-2: nervous
-22: system
-2: activation)
-4: were
-2: collected
-8: driving
-4: situation
-2: under
-2: various
-2: conditions.
-2: occurrence
-2: stressors
-2: was
-4: designed
-8: into
-2: validated
-4: driver
-2: self-report,
-2: real-time,
-2: third-party
-2: observations,
-2: independently
-2: coded
-2: video
-2: records
-2: road
-2: conditions
-2: facial
-4: expression.
-2: Features
-2: reflecting
-4: heart-rate
-4: variability
-2: derived
-6: adaptive
-12: Bayesian
-2: spectrum
-4: estimation,
-4: rate
-2: skin-conductivity
-2: orienting
-2: responses,
-6: spectral
-4: characteristics
-2: respiration
-2: extracted
-8: data.
-2: Initial
-2: pattern-recognition
-6: results
-2: show
-2: separation
-2: three
-2: states:
-2: rest,
-2: city,
-2: highway,
-4: some
-2: discrimination
-2: within
-4: states
-2: cases
-2: precedes
-18: or
-2: follows
-2: difficult
-2: turn-around
-2: toll
-2: situation.
-4: These
-4: yielded
-2: 89-96
-2: percent
-2: recognizing
-2: level.
-4: currently
-2: investigating
-6: new,
-2: advanced
-6: means
-2: modeling
-2: Gene
-6: Expression
-2: Data
-8: research
-4: aims
-2: classify
-2: gene
-2: expression
-2: sets
-6: different
-2: categories,
-18: such
-2: normal
-2: vs.
-2: cancer.
-2: main
-4: challenge
-2: thousands
-6: genes
-2: measured
-2: micro-array
-8: data,
-10: while
-2: small
-2: subset
-2: believed
-24: be
-2: relevant
-2: disease
-2: classification.
-18: have
-8: developed
-2: novel
-4: approach
-2: called
-2: "predictive
-4: automatic
-4: relevance
-2: determination;"
-2: brings
-6: tools
-2: bear
-2: selecting
-2: relevant,
-6: our
-2: (with
-2: Tom
-2: Minka)
-4: development
-2: "expectation
-2: propagation"
-4: algorithm.
-6: In
-2: simulations,
-16: new
-2: several
-2: state-of-the-art
-2: methods,
-2: including
-2: support-vector
-2: machines
-20: with
-2: feature
-2: selection
-2: relevance-vector
-2: machines.
-4: INNER-active
-4: Journal
-4: purpose
-4: provide
-6: way
-8: users
-2: reconstruct
-18: their
-4: emotions
-2: around
-4: events
-2: lives,
-2: see
-8: how
-2: recall
-10: these
-2: affects
-2: physiology.
-2: Expressive
-2: writing,
-2: participant
-2: asked
-2: write
-2: extremely
-6: emotional
-2: events,
-2: presented
-2: towards
-4: story
-2: construction.
-2: Previous
-4: use
-4: expressive
-4: writing
-2: shown
-2: profound
-2: benefits
-6: both
-2: psychological
-2: physical
-2: health.
-2: system,
-2: measures
-2: conductivity,
-2: instantaneous
-6: heart
-2: rate,
-2: entropy
-2: indicators
-2: activities
-2: occurring
-2: body.
-4: Users
-6: ability
-2: view
-2: after
-4: taking
-4: part
-2: task.
-2: Moral
-2: Sensors
-2: computer's
-2: emerging
-2: capacity
-2: communicate
-4: individual's
-4: affect
-2: raises
-2: critical
-10: ethical
-2: concerns.
-4: Additionally,
-2: designers
-6: perceptual
-8: computer
-4: systems
-2: face
-2: moral
-2: decisions
-2: gathered
-4: computers
-6: sensors
-12: can
-2: used.
-2: As
-2: humans,
-2: considerations
-2: come
-2: play
-4: when
-2: observe
-2: report
-2: each
-2: other's
-6: behavior.
-2: Computers,
-4: they
-2: designed,
-2: do
-6: not
-2: employ
-2: considerations.
-2: subject
-8: project
-10: will
-4: evaluations
-2: assess
-2: acceptability
-2: computers.
-4: goal
-6: make
-2: behaves
-2: ethically,
-2: eyes
-8: its
-2: users.
-2: More
-2: specifically,
-2: conduct
-2: series
-2: mediate
-2: communication
-2: motivated
-2: philosophies.
-2: Mouse-Behavior
-2: Adaptive
-4: Relational
-2: Agents
-4: develop
-2: sense
-2: adapt
-6: user's
-4: his
-4: her
-4: mouse
-2: developing
-2: algorithms
-2: frustration
-4: level
-2: usability
-2: studies.
-6: also
-2: exploring
-4: more
-2: permanent
-2: personality
-2: changes
-2: mood
-2: reflected
-2: user’s
-2: Ultimately,
-2: seek
-6: build
-4: relational
-2: agents
-2: tailor
-4: interaction
-6: user
-2: sensed
-8: states.
-2: Pattern
-4: Recognition
-2: Learning
-2: develops
-2: basic
-2: theories
-4: enabling
-2: inferences
-2: determining
-2: Bayesian:
-2: formulating
-2: basis
-2: domain
-4: knowledge
-2: training
-2: then
-2: performing
-2: inference
-2: according
-2: rules
-2: probability
-2: theory.
-2: approaches
-2: been
-2: implemented
-2: context
-2: curve
-2: fitting,
-2: mixture-density
-2: principal-components
-4: analysis
-2: (PCA),
-2: determination,
-2: analysis.
-2: Current
-2: tool
-2: nonstationary
-2: non-evenly
-2: sampled
-4: signals,
-2: electrocardiogram
-2: (EKG)
-2: known
-2: methods.
-2: Monte
-2: Carlo
-2: method,
-2: any
-2: generalized
-2: linear
-2: model
-2: greatly
-2: speeds
-2: up
-2: sampling
-4: process.
-2: principled
-2: framework.
-2: Recently,
-2: conditional
-2: random
-2: fields
-2: joint
-2: structured
-2: sequences,
-2: images,
-2: webs.
-2: Personal
-2: Heart-Stress
-2: Monitor
-2: saying,
-2: "if
-4: you
-4: can't
-2: measure
-2: it,
-2: manage
-2: it"
-2: may
-4: appropriate
-4: stress.
-2: Many
-2: people
-2: unaware
-2: level,
-4: what
-2: good
-2: bad
-2: it.
-2: issue
-2: complicated
-2: fact
-2: too
-2: unhealthy,
-2: certain
-2: amount
-6: healthy
-6: it
-2: motivates
-2: energizes.
-2: "right"
-2: varies
-2: temperment,
-2: task,
-2: factors,
-4: many
-2: unknown.
-2: There
-2: seems
-4: no
-2: analyzing
-2: levels
-2: vary
-2: average
-2: individual,
-2: over
-2: day-to-day
-4: activities.
-4: would
-2: like
-4: device
-2: helps
-4: gather
-2: present
-2: improving
-4: understanding
-2: unhealthy
-2: life.
-4: itself
-6: should
-2: comfortable
-4: increase
-2: (It
-2: noteworthy
-2: monitoring
-2: important
-2: human-computer
-2: testing
-2: designs.)
-2: Currently,
-4: building
-2: wireless,
-2: stress-mornitoring
-2: integrating
-2: Fitsense's
-2: Motorola's
-2: iDen
-2: cell
-2: phone
-2: estimation
-2: Posture
-2: Chair
-2: recognizes
-4: posture
-4: patterns
-4: real
-2: time,
-4: unobtrusive
-2: way,
-2: set
-2: pressure
-2: chair.
-4: detects
-6: learning
-2: situations,
-2: child
-2: interested,
-2: starting
-2: take
-2: frequent
-4: breaks
-2: looking
-2: bored.
-2: Leaning
-2: forward
-2: long
-2: periods
-2: time
-2: toward
-2: screen
-2: occasional
-2: tends
-2: sign
-2: attention
-2: (on-task),
-2: slumping
-2: chair
-2: fidgeting
-2: suggests
-2: boredom
-2: (off-task).
-2: uses
-2: pattern
-2: techniques,
-2: watching
-2: behaviors,
-2: "learn"
-4: behaviors
-2: tend
-2: accompany
-2: thus
-2: surface-level
-2: (postures)
-2: mappings
-2: during
-2: manner
-2: so
-4: don't
-4: interfere
-6: Through
-2: chair,
-2: reliably
-2: nine
-2: static
-2: postures,
-2: four
-2: temporal
-2: Robotic
-2: Computer
-2: A
-2: robotic
-2: moves
-2: monitor
-2: "head"
-2: "neck,"
-6: but
-2: explicit
-4: being
-2: interact
-2: applications
-2: learning,
-2: rapport-building,
-2: interactive
-2: teaching,
-2: improvement.
-2: applications,
-2: robot
-2: need
-2: move
-4: subtle
-6: ways
-2: express
-2: promote
-2: movements
-2: user,
-2: distract
-2: annoy.
-2: Toward
-2: goal,
-2: giving
-2: recognize
-2: expressions
-2: well
-2: them.
-4: Sharing
-4: Emotions
-4: Active
-2: (SETAE)
-2: help
-2: address
-2: needs
-2: understanding.
-6: SETAE
-2: allows
-4: reflect
-2: actively
-4: upon
-2: situations
-4: through
-2: construction
-2: pictorial
-2: narratives.
-2: able
-2: gain
-2: themselves
-2: others
-2: exploration
-2: authentic
-4: personal
-2: experiences.
-2: employs
-2: common-sense
-2: reasoning
-2: technology,
-2: infer
-2: content
-2: users'
-2: stories.
-2: extracts
-2: similar
-2: database
-2: displays
-2: users,
-2: allowing
-2: them
-2: hear
-2: stories,
-2: share
-2: feelings
-2: experiences,
-2: relation
-2: expect
-2: reflection
-2: facilitate
-2: perspectives
-2: dealing
-2: life’s
-2: events.
-2: Wearable
-2: Devices
-2: Monitoring
-2: collection,
-2: annotation,
-2: feedback
-2: longer-term
-2: plan
-2: understand
-2: involved
-2: first
-4: phase
-2: consists
-2: wearable
-2: apparatus
-4: gathering
-2: here
-4: getting
-2: accurate
-2: labels
-2: (annotations)
-2: possible,
-2: he
-2: she
-2: goes
-2: daily
-4: annotations
-2: disruptive,
-4: likely
-4: stress,
-2: measured,
-4: less
-2: collect
-2: lot
-2: hypothesis
-4: interrupting
-2: stressful
-2: others.
-2: Thus,
-2: second
-2: implementing
-2: annotations.
-2: informed
-2: prior
-2: attentional
-2: strategies.
-2: Overall,
-2: contribute
-2: useful
-2: studies
-2: insights
-2: value
-2: relational/attentional
-2: strategies
-2: involves
-2: large
-2: number
-2: interruptions.
+frequencia 0.000583 :    2 : interruptions. 
+frequencia 0.000583 :    2 : number 
+frequencia 0.000583 :    2 : large 
+frequencia 0.000583 :    2 : involves 
+frequencia 0.000583 :    2 : strategies 
+frequencia 0.000583 :    2 : relational/attentional 
+frequencia 0.000583 :    2 : value 
+frequencia 0.000583 :    2 : insights 
+frequencia 0.000583 :    2 : studies 
+frequencia 0.000583 :    2 : useful 
+frequencia 0.000583 :    2 : contribute 
+frequencia 0.000583 :    2 : Overall, 
+frequencia 0.000583 :    2 : strategies. 
+frequencia 0.000583 :    2 : attentional 
+frequencia 0.000583 :    2 : prior 
+frequencia 0.000583 :    2 : informed 
+frequencia 0.000583 :    2 : annotations. 
+frequencia 0.000583 :    2 : implementing 
+frequencia 0.000583 :    2 : second 
+frequencia 0.000583 :    2 : Thus, 
+frequencia 0.000583 :    2 : others. 
+frequencia 0.000583 :    2 : stressful 
+frequencia 0.001166 :    4 : interrupting 
+frequencia 0.000583 :    2 : hypothesis 
+frequencia 0.000583 :    2 : lot 
+frequencia 0.000583 :    2 : collect 
+frequencia 0.001166 :    4 : less 
+frequencia 0.000583 :    2 : measured, 
+frequencia 0.001166 :    4 : stress, 
+frequencia 0.001166 :    4 : likely 
+frequencia 0.000583 :    2 : disruptive, 
+frequencia 0.001166 :    4 : annotations 
+frequencia 0.000583 :    2 : daily 
+frequencia 0.000583 :    2 : goes 
+frequencia 0.000583 :    2 : she 
+frequencia 0.000583 :    2 : he 
+frequencia 0.000583 :    2 : possible, 
+frequencia 0.000583 :    2 : (annotations) 
+frequencia 0.000583 :    2 : labels 
+frequencia 0.000583 :    2 : accurate 
+frequencia 0.001166 :    4 : getting 
+frequencia 0.000583 :    2 : here 
+frequencia 0.001166 :    4 : gathering 
+frequencia 0.000583 :    2 : apparatus 
+frequencia 0.000583 :    2 : wearable 
+frequencia 0.000583 :    2 : consists 
+frequencia 0.001166 :    4 : phase 
+frequencia 0.000583 :    2 : first 
+frequencia 0.000583 :    2 : involved 
+frequencia 0.000583 :    2 : understand 
+frequencia 0.000583 :    2 : plan 
+frequencia 0.000583 :    2 : longer-term 
+frequencia 0.000583 :    2 : feedback 
+frequencia 0.000583 :    2 : annotation, 
+frequencia 0.000583 :    2 : collection, 
+frequencia 0.000583 :    2 : Monitoring 
+frequencia 0.000583 :    2 : Devices 
+frequencia 0.000583 :    2 : Wearable 
+frequencia 0.000583 :    2 : events. 
+frequencia 0.000583 :    2 : life’s 
+frequencia 0.000583 :    2 : dealing 
+frequencia 0.000583 :    2 : perspectives 
+frequencia 0.000583 :    2 : facilitate 
+frequencia 0.000583 :    2 : reflection 
+frequencia 0.000583 :    2 : expect 
+frequencia 0.000583 :    2 : relation 
+frequencia 0.000583 :    2 : experiences, 
+frequencia 0.000583 :    2 : feelings 
+frequencia 0.000583 :    2 : share 
+frequencia 0.000583 :    2 : stories, 
+frequencia 0.000583 :    2 : hear 
+frequencia 0.000583 :    2 : them 
+frequencia 0.000583 :    2 : allowing 
+frequencia 0.000583 :    2 : users, 
+frequencia 0.000583 :    2 : displays 
+frequencia 0.000583 :    2 : database 
+frequencia 0.000583 :    2 : similar 
+frequencia 0.000583 :    2 : extracts 
+frequencia 0.000583 :    2 : stories. 
+frequencia 0.000583 :    2 : users' 
+frequencia 0.000583 :    2 : content 
+frequencia 0.000583 :    2 : infer 
+frequencia 0.000583 :    2 : technology, 
+frequencia 0.000583 :    2 : reasoning 
+frequencia 0.000583 :    2 : common-sense 
+frequencia 0.000583 :    2 : employs 
+frequencia 0.000583 :    2 : experiences. 
+frequencia 0.001166 :    4 : personal 
+frequencia 0.000583 :    2 : authentic 
+frequencia 0.000583 :    2 : exploration 
+frequencia 0.000583 :    2 : others 
+frequencia 0.000583 :    2 : themselves 
+frequencia 0.000583 :    2 : gain 
+frequencia 0.000583 :    2 : able 
+frequencia 0.000583 :    2 : narratives. 
+frequencia 0.000583 :    2 : pictorial 
+frequencia 0.000583 :    2 : construction 
+frequencia 0.001166 :    4 : through 
+frequencia 0.000583 :    2 : situations 
+frequencia 0.001166 :    4 : upon 
+frequencia 0.000583 :    2 : actively 
+frequencia 0.001166 :    4 : reflect 
+frequencia 0.000583 :    2 : allows 
+frequencia 0.001749 :    6 : SETAE 
+frequencia 0.000583 :    2 : understanding. 
+frequencia 0.000583 :    2 : needs 
+frequencia 0.000583 :    2 : address 
+frequencia 0.000583 :    2 : help 
+frequencia 0.000583 :    2 : (SETAE) 
+frequencia 0.001166 :    4 : Active 
+frequencia 0.001166 :    4 : Emotions 
+frequencia 0.001166 :    4 : Sharing 
+frequencia 0.000583 :    2 : them. 
+frequencia 0.000583 :    2 : well 
+frequencia 0.000583 :    2 : expressions 
+frequencia 0.000583 :    2 : recognize 
+frequencia 0.000583 :    2 : giving 
+frequencia 0.000583 :    2 : goal, 
+frequencia 0.000583 :    2 : Toward 
+frequencia 0.000583 :    2 : annoy. 
+frequencia 0.000583 :    2 : distract 
+frequencia 0.000583 :    2 : user, 
+frequencia 0.000583 :    2 : movements 
+frequencia 0.000583 :    2 : promote 
+frequencia 0.000583 :    2 : express 
+frequencia 0.001749 :    6 : ways 
+frequencia 0.001166 :    4 : subtle 
+frequencia 0.000583 :    2 : move 
+frequencia 0.000583 :    2 : need 
+frequencia 0.000583 :    2 : robot 
+frequencia 0.000583 :    2 : applications, 
+frequencia 0.000583 :    2 : improvement. 
+frequencia 0.000583 :    2 : teaching, 
+frequencia 0.000583 :    2 : interactive 
+frequencia 0.000583 :    2 : rapport-building, 
+frequencia 0.000583 :    2 : learning, 
+frequencia 0.000583 :    2 : applications 
+frequencia 0.000583 :    2 : interact 
+frequencia 0.001166 :    4 : being 
+frequencia 0.000583 :    2 : explicit 
+frequencia 0.001749 :    6 : but 
+frequencia 0.000583 :    2 : "neck," 
+frequencia 0.000583 :    2 : "head" 
+frequencia 0.000583 :    2 : monitor 
+frequencia 0.000583 :    2 : moves 
+frequencia 0.000583 :    2 : robotic 
+frequencia 0.000583 :    2 : A 
+frequencia 0.000583 :    2 : Computer 
+frequencia 0.000583 :    2 : Robotic 
+frequencia 0.000583 :    2 : temporal 
+frequencia 0.000583 :    2 : four 
+frequencia 0.000583 :    2 : postures, 
+frequencia 0.000583 :    2 : static 
+frequencia 0.000583 :    2 : nine 
+frequencia 0.000583 :    2 : reliably 
+frequencia 0.000583 :    2 : chair, 
+frequencia 0.001749 :    6 : Through 
+frequencia 0.001166 :    4 : interfere 
+frequencia 0.001166 :    4 : don't 
+frequencia 0.000583 :    2 : so 
+frequencia 0.000583 :    2 : manner 
+frequencia 0.000583 :    2 : during 
+frequencia 0.000583 :    2 : mappings 
+frequencia 0.000583 :    2 : (postures) 
+frequencia 0.000583 :    2 : surface-level 
+frequencia 0.000583 :    2 : thus 
+frequencia 0.000583 :    2 : accompany 
+frequencia 0.000583 :    2 : tend 
+frequencia 0.001166 :    4 : behaviors 
+frequencia 0.000583 :    2 : "learn" 
+frequencia 0.000583 :    2 : behaviors, 
+frequencia 0.000583 :    2 : watching 
+frequencia 0.000583 :    2 : techniques, 
+frequencia 0.000583 :    2 : pattern 
+frequencia 0.000583 :    2 : uses 
+frequencia 0.000583 :    2 : (off-task). 
+frequencia 0.000583 :    2 : boredom 
+frequencia 0.000583 :    2 : suggests 
+frequencia 0.000583 :    2 : fidgeting 
+frequencia 0.000583 :    2 : chair 
+frequencia 0.000583 :    2 : slumping 
+frequencia 0.000583 :    2 : (on-task), 
+frequencia 0.000583 :    2 : attention 
+frequencia 0.000583 :    2 : sign 
+frequencia 0.000583 :    2 : tends 
+frequencia 0.000583 :    2 : occasional 
+frequencia 0.000583 :    2 : screen 
+frequencia 0.000583 :    2 : toward 
+frequencia 0.000583 :    2 : time 
+frequencia 0.000583 :    2 : periods 
+frequencia 0.000583 :    2 : long 
+frequencia 0.000583 :    2 : forward 
+frequencia 0.000583 :    2 : Leaning 
+frequencia 0.000583 :    2 : bored. 
+frequencia 0.000583 :    2 : looking 
+frequencia 0.001166 :    4 : breaks 
+frequencia 0.000583 :    2 : frequent 
+frequencia 0.000583 :    2 : take 
+frequencia 0.000583 :    2 : starting 
+frequencia 0.000583 :    2 : interested, 
+frequencia 0.000583 :    2 : child 
+frequencia 0.000583 :    2 : situations, 
+frequencia 0.001749 :    6 : learning 
+frequencia 0.001166 :    4 : detects 
+frequencia 0.000583 :    2 : chair. 
+frequencia 0.000583 :    2 : pressure 
+frequencia 0.000583 :    2 : set 
+frequencia 0.000583 :    2 : way, 
+frequencia 0.001166 :    4 : unobtrusive 
+frequencia 0.000583 :    2 : time, 
+frequencia 0.001166 :    4 : real 
+frequencia 0.001166 :    4 : patterns 
+frequencia 0.001166 :    4 : posture 
+frequencia 0.000583 :    2 : recognizes 
+frequencia 0.000583 :    2 : Chair 
+frequencia 0.000583 :    2 : Posture 
+frequencia 0.000583 :    2 : estimation 
+frequencia 0.000583 :    2 : phone 
+frequencia 0.000583 :    2 : cell 
+frequencia 0.000583 :    2 : iDen 
+frequencia 0.000583 :    2 : Motorola's 
+frequencia 0.000583 :    2 : Fitsense's 
+frequencia 0.000583 :    2 : integrating 
+frequencia 0.000583 :    2 : stress-mornitoring 
+frequencia 0.000583 :    2 : wireless, 
+frequencia 0.001166 :    4 : building 
+frequencia 0.000583 :    2 : Currently, 
+frequencia 0.000583 :    2 : designs.) 
+frequencia 0.000583 :    2 : testing 
+frequencia 0.000583 :    2 : human-computer 
+frequencia 0.000583 :    2 : important 
+frequencia 0.000583 :    2 : monitoring 
+frequencia 0.000583 :    2 : noteworthy 
+frequencia 0.000583 :    2 : (It 
+frequencia 0.001166 :    4 : increase 
+frequencia 0.000583 :    2 : comfortable 
+frequencia 0.001749 :    6 : should 
+frequencia 0.001166 :    4 : itself 
+frequencia 0.000583 :    2 : life. 
+frequencia 0.000583 :    2 : unhealthy 
+frequencia 0.001166 :    4 : understanding 
+frequencia 0.000583 :    2 : improving 
+frequencia 0.000583 :    2 : present 
+frequencia 0.001166 :    4 : gather 
+frequencia 0.000583 :    2 : helps 
+frequencia 0.001166 :    4 : device 
+frequencia 0.000583 :    2 : like 
+frequencia 0.001166 :    4 : would 
+frequencia 0.001166 :    4 : activities. 
+frequencia 0.000583 :    2 : day-to-day 
+frequencia 0.000583 :    2 : over 
+frequencia 0.000583 :    2 : individual, 
+frequencia 0.000583 :    2 : average 
+frequencia 0.000583 :    2 : vary 
+frequencia 0.000583 :    2 : levels 
+frequencia 0.000583 :    2 : analyzing 
+frequencia 0.001166 :    4 : no 
+frequencia 0.000583 :    2 : seems 
+frequencia 0.000583 :    2 : There 
+frequencia 0.000583 :    2 : unknown. 
+frequencia 0.001166 :    4 : many 
+frequencia 0.000583 :    2 : factors, 
+frequencia 0.000583 :    2 : task, 
+frequencia 0.000583 :    2 : temperment, 
+frequencia 0.000583 :    2 : varies 
+frequencia 0.000583 :    2 : "right" 
+frequencia 0.000583 :    2 : energizes. 
+frequencia 0.000583 :    2 : motivates 
+frequencia 0.001749 :    6 : it 
+frequencia 0.001749 :    6 : healthy 
+frequencia 0.000583 :    2 : amount 
+frequencia 0.000583 :    2 : certain 
+frequencia 0.000583 :    2 : unhealthy, 
+frequencia 0.000583 :    2 : too 
+frequencia 0.000583 :    2 : fact 
+frequencia 0.000583 :    2 : complicated 
+frequencia 0.000583 :    2 : issue 
+frequencia 0.000583 :    2 : it. 
+frequencia 0.000583 :    2 : bad 
+frequencia 0.000583 :    2 : good 
+frequencia 0.001166 :    4 : what 
+frequencia 0.000583 :    2 : level, 
+frequencia 0.000583 :    2 : unaware 
+frequencia 0.000583 :    2 : people 
+frequencia 0.000583 :    2 : Many 
+frequencia 0.001166 :    4 : stress. 
+frequencia 0.001166 :    4 : appropriate 
+frequencia 0.000583 :    2 : may 
+frequencia 0.000583 :    2 : it" 
+frequencia 0.000583 :    2 : manage 
+frequencia 0.000583 :    2 : it, 
+frequencia 0.000583 :    2 : measure 
+frequencia 0.001166 :    4 : can't 
+frequencia 0.001166 :    4 : you 
+frequencia 0.000583 :    2 : "if 
+frequencia 0.000583 :    2 : saying, 
+frequencia 0.000583 :    2 : Monitor 
+frequencia 0.000583 :    2 : Heart-Stress 
+frequencia 0.000583 :    2 : Personal 
+frequencia 0.000583 :    2 : webs. 
+frequencia 0.000583 :    2 : images, 
+frequencia 0.000583 :    2 : sequences, 
+frequencia 0.000583 :    2 : structured 
+frequencia 0.000583 :    2 : joint 
+frequencia 0.000583 :    2 : fields 
+frequencia 0.000583 :    2 : random 
+frequencia 0.000583 :    2 : conditional 
+frequencia 0.000583 :    2 : Recently, 
+frequencia 0.000583 :    2 : framework. 
+frequencia 0.000583 :    2 : principled 
+frequencia 0.001166 :    4 : process. 
+frequencia 0.000583 :    2 : sampling 
+frequencia 0.000583 :    2 : up 
+frequencia 0.000583 :    2 : speeds 
+frequencia 0.000583 :    2 : greatly 
+frequencia 0.000583 :    2 : model 
+frequencia 0.000583 :    2 : linear 
+frequencia 0.000583 :    2 : generalized 
+frequencia 0.000583 :    2 : any 
+frequencia 0.000583 :    2 : method, 
+frequencia 0.000583 :    2 : Carlo 
+frequencia 0.000583 :    2 : Monte 
+frequencia 0.000583 :    2 : methods. 
+frequencia 0.000583 :    2 : known 
+frequencia 0.000583 :    2 : (EKG) 
+frequencia 0.000583 :    2 : electrocardiogram 
+frequencia 0.001166 :    4 : signals, 
+frequencia 0.000583 :    2 : sampled 
+frequencia 0.000583 :    2 : non-evenly 
+frequencia 0.000583 :    2 : nonstationary 
+frequencia 0.000583 :    2 : tool 
+frequencia 0.000583 :    2 : Current 
+frequencia 0.000583 :    2 : analysis. 
+frequencia 0.000583 :    2 : determination, 
+frequencia 0.000583 :    2 : (PCA), 
+frequencia 0.001166 :    4 : analysis 
+frequencia 0.000583 :    2 : principal-components 
+frequencia 0.000583 :    2 : mixture-density 
+frequencia 0.000583 :    2 : fitting, 
+frequencia 0.000583 :    2 : curve 
+frequencia 0.000583 :    2 : context 
+frequencia 0.000583 :    2 : implemented 
+frequencia 0.000583 :    2 : been 
+frequencia 0.000583 :    2 : approaches 
+frequencia 0.000583 :    2 : theory. 
+frequencia 0.000583 :    2 : probability 
+frequencia 0.000583 :    2 : rules 
+frequencia 0.000583 :    2 : according 
+frequencia 0.000583 :    2 : inference 
+frequencia 0.000583 :    2 : performing 
+frequencia 0.000583 :    2 : then 
+frequencia 0.000583 :    2 : training 
+frequencia 0.001166 :    4 : knowledge 
+frequencia 0.000583 :    2 : domain 
+frequencia 0.000583 :    2 : basis 
+frequencia 0.000583 :    2 : formulating 
+frequencia 0.000583 :    2 : Bayesian: 
+frequencia 0.000583 :    2 : determining 
+frequencia 0.000583 :    2 : inferences 
+frequencia 0.001166 :    4 : enabling 
+frequencia 0.000583 :    2 : theories 
+frequencia 0.000583 :    2 : basic 
+frequencia 0.000583 :    2 : develops 
+frequencia 0.000583 :    2 : Learning 
+frequencia 0.001166 :    4 : Recognition 
+frequencia 0.000583 :    2 : Pattern 
+frequencia 0.002332 :    8 : states. 
+frequencia 0.000583 :    2 : sensed 
+frequencia 0.001749 :    6 : user 
+frequencia 0.001166 :    4 : interaction 
+frequencia 0.000583 :    2 : tailor 
+frequencia 0.000583 :    2 : agents 
+frequencia 0.001166 :    4 : relational 
+frequencia 0.001749 :    6 : build 
+frequencia 0.000583 :    2 : seek 
+frequencia 0.000583 :    2 : Ultimately, 
+frequencia 0.000583 :    2 : user’s 
+frequencia 0.000583 :    2 : reflected 
+frequencia 0.000583 :    2 : mood 
+frequencia 0.000583 :    2 : changes 
+frequencia 0.000583 :    2 : personality 
+frequencia 0.000583 :    2 : permanent 
+frequencia 0.001166 :    4 : more 
+frequencia 0.000583 :    2 : exploring 
+frequencia 0.001749 :    6 : also 
+frequencia 0.000583 :    2 : studies. 
+frequencia 0.000583 :    2 : usability 
+frequencia 0.001166 :    4 : level 
+frequencia 0.000583 :    2 : frustration 
+frequencia 0.000583 :    2 : algorithms 
+frequencia 0.000583 :    2 : developing 
+frequencia 0.001166 :    4 : mouse 
+frequencia 0.001166 :    4 : her 
+frequencia 0.001166 :    4 : his 
+frequencia 0.001749 :    6 : user's 
+frequencia 0.000583 :    2 : adapt 
+frequencia 0.000583 :    2 : sense 
+frequencia 0.001166 :    4 : develop 
+frequencia 0.000583 :    2 : Agents 
+frequencia 0.001166 :    4 : Relational 
+frequencia 0.000583 :    2 : Adaptive 
+frequencia 0.000583 :    2 : Mouse-Behavior 
+frequencia 0.000583 :    2 : philosophies. 
+frequencia 0.000583 :    2 : motivated 
+frequencia 0.000583 :    2 : communication 
+frequencia 0.000583 :    2 : mediate 
+frequencia 0.000583 :    2 : series 
+frequencia 0.000583 :    2 : conduct 
+frequencia 0.000583 :    2 : specifically, 
+frequencia 0.000583 :    2 : More 
+frequencia 0.000583 :    2 : users. 
+frequencia 0.002332 :    8 : its 
+frequencia 0.000583 :    2 : eyes 
+frequencia 0.000583 :    2 : ethically, 
+frequencia 0.000583 :    2 : behaves 
+frequencia 0.001749 :    6 : make 
+frequencia 0.001166 :    4 : goal 
+frequencia 0.000583 :    2 : computers. 
+frequencia 0.000583 :    2 : acceptability 
+frequencia 0.000583 :    2 : assess 
+frequencia 0.001166 :    4 : evaluations 
+frequencia 0.002915 :   10 : will 
+frequencia 0.002332 :    8 : project 
+frequencia 0.000583 :    2 : subject 
+frequencia 0.000583 :    2 : considerations. 
+frequencia 0.000583 :    2 : employ 
+frequencia 0.001749 :    6 : not 
+frequencia 0.000583 :    2 : do 
+frequencia 0.000583 :    2 : designed, 
+frequencia 0.001166 :    4 : they 
+frequencia 0.000583 :    2 : Computers, 
+frequencia 0.001749 :    6 : behavior. 
+frequencia 0.000583 :    2 : other's 
+frequencia 0.000583 :    2 : each 
+frequencia 0.000583 :    2 : report 
+frequencia 0.000583 :    2 : observe 
+frequencia 0.001166 :    4 : when 
+frequencia 0.000583 :    2 : play 
+frequencia 0.000583 :    2 : come 
+frequencia 0.000583 :    2 : considerations 
+frequencia 0.000583 :    2 : humans, 
+frequencia 0.000583 :    2 : As 
+frequencia 0.000583 :    2 : used. 
+frequencia 0.003499 :   12 : can 
+frequencia 0.001749 :    6 : sensors 
+frequencia 0.001166 :    4 : computers 
+frequencia 0.000583 :    2 : gathered 
+frequencia 0.000583 :    2 : decisions 
+frequencia 0.000583 :    2 : moral 
+frequencia 0.000583 :    2 : face 
+frequencia 0.001166 :    4 : systems 
+frequencia 0.002332 :    8 : computer 
+frequencia 0.001749 :    6 : perceptual 
+frequencia 0.000583 :    2 : designers 
+frequencia 0.001166 :    4 : Additionally, 
+frequencia 0.000583 :    2 : concerns. 
+frequencia 0.002915 :   10 : ethical 
+frequencia 0.000583 :    2 : critical 
+frequencia 0.000583 :    2 : raises 
+frequencia 0.001166 :    4 : affect 
+frequencia 0.001166 :    4 : individual's 
+frequencia 0.000583 :    2 : communicate 
+frequencia 0.000583 :    2 : capacity 
+frequencia 0.000583 :    2 : emerging 
+frequencia 0.000583 :    2 : computer's 
+frequencia 0.000583 :    2 : Sensors 
+frequencia 0.000583 :    2 : Moral 
+frequencia 0.000583 :    2 : task. 
+frequencia 0.001166 :    4 : part 
+frequencia 0.001166 :    4 : taking 
+frequencia 0.000583 :    2 : after 
+frequencia 0.000583 :    2 : view 
+frequencia 0.001749 :    6 : ability 
+frequencia 0.001166 :    4 : Users 
+frequencia 0.000583 :    2 : body. 
+frequencia 0.000583 :    2 : occurring 
+frequencia 0.000583 :    2 : activities 
+frequencia 0.000583 :    2 : indicators 
+frequencia 0.000583 :    2 : entropy 
+frequencia 0.000583 :    2 : rate, 
+frequencia 0.001749 :    6 : heart 
+frequencia 0.000583 :    2 : instantaneous 
+frequencia 0.000583 :    2 : conductivity, 
+frequencia 0.000583 :    2 : measures 
+frequencia 0.000583 :    2 : system, 
+frequencia 0.000583 :    2 : health. 
+frequencia 0.000583 :    2 : physical 
+frequencia 0.000583 :    2 : psychological 
+frequencia 0.001749 :    6 : both 
+frequencia 0.000583 :    2 : benefits 
+frequencia 0.000583 :    2 : profound 
+frequencia 0.000583 :    2 : shown 
+frequencia 0.001166 :    4 : writing 
+frequencia 0.001166 :    4 : expressive 
+frequencia 0.001166 :    4 : use 
+frequencia 0.000583 :    2 : Previous 
+frequencia 0.000583 :    2 : construction. 
+frequencia 0.001166 :    4 : story 
+frequencia 0.000583 :    2 : towards 
+frequencia 0.000583 :    2 : presented 
+frequencia 0.000583 :    2 : events, 
+frequencia 0.001749 :    6 : emotional 
+frequencia 0.000583 :    2 : extremely 
+frequencia 0.000583 :    2 : write 
+frequencia 0.000583 :    2 : asked 
+frequencia 0.000583 :    2 : participant 
+frequencia 0.000583 :    2 : writing, 
+frequencia 0.000583 :    2 : Expressive 
+frequencia 0.000583 :    2 : physiology. 
+frequencia 0.000583 :    2 : affects 
+frequencia 0.002915 :   10 : these 
+frequencia 0.000583 :    2 : recall 
+frequencia 0.002332 :    8 : how 
+frequencia 0.000583 :    2 : see 
+frequencia 0.000583 :    2 : lives, 
+frequencia 0.001166 :    4 : events 
+frequencia 0.000583 :    2 : around 
+frequencia 0.001166 :    4 : emotions 
+frequencia 0.005248 :   18 : their 
+frequencia 0.000583 :    2 : reconstruct 
+frequencia 0.002332 :    8 : users 
+frequencia 0.001749 :    6 : way 
+frequencia 0.001166 :    4 : provide 
+frequencia 0.001166 :    4 : purpose 
+frequencia 0.001166 :    4 : Journal 
+frequencia 0.001166 :    4 : INNER-active 
+frequencia 0.000583 :    2 : machines. 
+frequencia 0.000583 :    2 : relevance-vector 
+frequencia 0.000583 :    2 : selection 
+frequencia 0.000583 :    2 : feature 
+frequencia 0.005831 :   20 : with 
+frequencia 0.000583 :    2 : machines 
+frequencia 0.000583 :    2 : support-vector 
+frequencia 0.000583 :    2 : including 
+frequencia 0.000583 :    2 : methods, 
+frequencia 0.000583 :    2 : state-of-the-art 
+frequencia 0.000583 :    2 : several 
+frequencia 0.004665 :   16 : new 
+frequencia 0.000583 :    2 : simulations, 
+frequencia 0.001749 :    6 : In 
+frequencia 0.001166 :    4 : algorithm. 
+frequencia 0.000583 :    2 : propagation" 
+frequencia 0.000583 :    2 : "expectation 
+frequencia 0.001166 :    4 : development 
+frequencia 0.000583 :    2 : Minka) 
+frequencia 0.000583 :    2 : Tom 
+frequencia 0.000583 :    2 : (with 
+frequencia 0.001749 :    6 : our 
+frequencia 0.000583 :    2 : relevant, 
+frequencia 0.000583 :    2 : selecting 
+frequencia 0.000583 :    2 : bear 
+frequencia 0.001749 :    6 : tools 
+frequencia 0.000583 :    2 : brings 
+frequencia 0.000583 :    2 : determination;" 
+frequencia 0.001166 :    4 : relevance 
+frequencia 0.001166 :    4 : automatic 
+frequencia 0.000583 :    2 : "predictive 
+frequencia 0.000583 :    2 : called 
+frequencia 0.001166 :    4 : approach 
+frequencia 0.000583 :    2 : novel 
+frequencia 0.002332 :    8 : developed 
+frequencia 0.005248 :   18 : have 
+frequencia 0.000583 :    2 : classification. 
+frequencia 0.000583 :    2 : disease 
+frequencia 0.000583 :    2 : relevant 
+frequencia 0.006997 :   24 : be 
+frequencia 0.000583 :    2 : believed 
+frequencia 0.000583 :    2 : subset 
+frequencia 0.000583 :    2 : small 
+frequencia 0.002915 :   10 : while 
+frequencia 0.002332 :    8 : data, 
+frequencia 0.000583 :    2 : micro-array 
+frequencia 0.000583 :    2 : measured 
+frequencia 0.001749 :    6 : genes 
+frequencia 0.000583 :    2 : thousands 
+frequencia 0.001166 :    4 : challenge 
+frequencia 0.000583 :    2 : main 
+frequencia 0.000583 :    2 : cancer. 
+frequencia 0.000583 :    2 : vs. 
+frequencia 0.000583 :    2 : normal 
+frequencia 0.005248 :   18 : such 
+frequencia 0.000583 :    2 : categories, 
+frequencia 0.001749 :    6 : different 
+frequencia 0.000583 :    2 : sets 
+frequencia 0.000583 :    2 : expression 
+frequencia 0.000583 :    2 : gene 
+frequencia 0.000583 :    2 : classify 
+frequencia 0.001166 :    4 : aims 
+frequencia 0.002332 :    8 : research 
+frequencia 0.000583 :    2 : Data 
+frequencia 0.001749 :    6 : Expression 
+frequencia 0.000583 :    2 : Gene 
+frequencia 0.000583 :    2 : modeling 
+frequencia 0.001749 :    6 : means 
+frequencia 0.000583 :    2 : advanced 
+frequencia 0.001749 :    6 : new, 
+frequencia 0.000583 :    2 : investigating 
+frequencia 0.001166 :    4 : currently 
+frequencia 0.000583 :    2 : level. 
+frequencia 0.000583 :    2 : recognizing 
+frequencia 0.000583 :    2 : percent 
+frequencia 0.000583 :    2 : 89-96 
+frequencia 0.001166 :    4 : yielded 
+frequencia 0.001166 :    4 : These 
+frequencia 0.000583 :    2 : situation. 
+frequencia 0.000583 :    2 : toll 
+frequencia 0.000583 :    2 : turn-around 
+frequencia 0.000583 :    2 : difficult 
+frequencia 0.000583 :    2 : follows 
+frequencia 0.005248 :   18 : or 
+frequencia 0.000583 :    2 : precedes 
+frequencia 0.000583 :    2 : cases 
+frequencia 0.001166 :    4 : states 
+frequencia 0.000583 :    2 : within 
+frequencia 0.000583 :    2 : discrimination 
+frequencia 0.001166 :    4 : some 
+frequencia 0.000583 :    2 : highway, 
+frequencia 0.000583 :    2 : city, 
+frequencia 0.000583 :    2 : rest, 
+frequencia 0.000583 :    2 : states: 
+frequencia 0.000583 :    2 : three 
+frequencia 0.000583 :    2 : separation 
+frequencia 0.000583 :    2 : show 
+frequencia 0.001749 :    6 : results 
+frequencia 0.000583 :    2 : pattern-recognition 
+frequencia 0.000583 :    2 : Initial 
+frequencia 0.002332 :    8 : data. 
+frequencia 0.000583 :    2 : extracted 
+frequencia 0.000583 :    2 : respiration 
+frequencia 0.001166 :    4 : characteristics 
+frequencia 0.001749 :    6 : spectral 
+frequencia 0.000583 :    2 : responses, 
+frequencia 0.000583 :    2 : orienting 
+frequencia 0.000583 :    2 : skin-conductivity 
+frequencia 0.001166 :    4 : rate 
+frequencia 0.001166 :    4 : estimation, 
+frequencia 0.000583 :    2 : spectrum 
+frequencia 0.003499 :   12 : Bayesian 
+frequencia 0.001749 :    6 : adaptive 
+frequencia 0.000583 :    2 : derived 
+frequencia 0.001166 :    4 : variability 
+frequencia 0.001166 :    4 : heart-rate 
+frequencia 0.000583 :    2 : reflecting 
+frequencia 0.000583 :    2 : Features 
+frequencia 0.001166 :    4 : expression. 
+frequencia 0.000583 :    2 : facial 
+frequencia 0.000583 :    2 : conditions 
+frequencia 0.000583 :    2 : road 
+frequencia 0.000583 :    2 : records 
+frequencia 0.000583 :    2 : video 
+frequencia 0.000583 :    2 : coded 
+frequencia 0.000583 :    2 : independently 
+frequencia 0.000583 :    2 : observations, 
+frequencia 0.000583 :    2 : third-party 
+frequencia 0.000583 :    2 : real-time, 
+frequencia 0.000583 :    2 : self-report, 
+frequencia 0.001166 :    4 : driver 
+frequencia 0.000583 :    2 : validated 
+frequencia 0.002332 :    8 : into 
+frequencia 0.001166 :    4 : designed 
+frequencia 0.000583 :    2 : was 
+frequencia 0.000583 :    2 : stressors 
+frequencia 0.000583 :    2 : occurrence 
+frequencia 0.000583 :    2 : conditions. 
+frequencia 0.000583 :    2 : various 
+frequencia 0.000583 :    2 : under 
+frequencia 0.001166 :    4 : situation 
+frequencia 0.002332 :    8 : driving 
+frequencia 0.000583 :    2 : collected 
+frequencia 0.001166 :    4 : were 
+frequencia 0.000583 :    2 : activation) 
+frequencia 0.006414 :   22 : system 
+frequencia 0.000583 :    2 : nervous 
+frequencia 0.000583 :    2 : autonomic 
+frequencia 0.001166 :    4 : related 
+frequencia 0.000583 :    2 : conductivity 
+frequencia 0.001166 :    4 : skin 
+frequencia 0.000583 :    2 : respiration, 
+frequencia 0.000583 :    2 : electromyogram, 
+frequencia 0.000583 :    2 : (electrocardiogram, 
+frequencia 0.002332 :    8 : signals 
+frequencia 0.001166 :    4 : physiological 
+frequencia 0.001166 :    4 : types 
+frequencia 0.000583 :    2 : Four 
+frequencia 0.001166 :    4 : situations. 
+frequencia 0.004082 :   14 : natural 
+frequencia 0.005831 :   20 : stress 
+frequencia 0.012828 :   44 : for 
+frequencia 0.000583 :    2 : bed 
+frequencia 0.000583 :    2 : test 
+frequencia 0.000583 :    2 : ideal 
+frequencia 0.000583 :    2 : Driving 
+frequencia 0.001166 :    4 : Stress 
+frequencia 0.000583 :    2 : Driver 
+frequencia 0.001749 :    6 : Analysis 
+frequencia 0.000583 :    2 : Detection 
+frequencia 0.000583 :    2 : problem. 
+frequencia 0.001166 :    4 : applied 
+frequencia 0.000583 :    2 : methods 
+frequencia 0.000583 :    2 : classifier 
+frequencia 0.001749 :    6 : other 
+frequencia 0.001166 :    4 : all 
+frequencia 0.001749 :    6 : outperforms 
+frequencia 0.000583 :    2 : framework, 
+frequencia 0.001166 :    4 : proposed 
+frequencia 0.000583 :    2 : case 
+frequencia 0.000583 :    2 : special 
+frequencia 0.000583 :    2 : , 
+frequencia 0.000583 :    2 : averaging 
+frequencia 0.000583 :    2 : critic-driven 
+frequencia 0.000583 :    2 : Further, 
+frequencia 0.000583 :    2 : channels. 
+frequencia 0.001749 :    6 : based 
+frequencia 0.001166 :    4 : than 
+frequencia 0.001166 :    4 : accuracy 
+frequencia 0.001166 :    4 : recognition 
+frequencia 0.000583 :    2 : better 
+frequencia 0.001166 :    4 : much 
+frequencia 0.000583 :    2 : achieves 
+frequencia 0.001749 :    6 : method 
+frequencia 0.005248 :   18 : this 
+frequencia 0.005248 :   18 : we 
+frequencia 0.000583 :    2 : combined 
+frequencia 0.000583 :    2 : puzzle 
+frequencia 0.000583 :    2 : postures 
+frequencia 0.001166 :    4 : face, 
+frequencia 0.000583 :    2 : sensory 
+frequencia 0.000583 :    2 : puzzle. 
+frequencia 0.000583 :    2 : solve 
+frequencia 0.000583 :    2 : trying 
+frequencia 0.001166 :    4 : children 
+frequencia 0.000583 :    2 : interest 
+frequencia 0.002915 :   10 : state 
+frequencia 0.001166 :    4 : detecting 
+frequencia 0.002332 :    8 : task 
+frequencia 0.000583 :    2 : scheme 
+frequencia 0.001749 :    6 : classification 
+frequencia 0.000583 :    2 : multi-sensor 
+frequencia 0.001166 :    4 : demonstrate 
+frequencia 0.000583 :    2 : class. 
+frequencia 0.001166 :    4 : combine 
+frequencia 0.001166 :    4 : used 
+frequencia 0.000583 :    2 : input, 
+frequencia 0.000583 :    2 : current 
+frequencia 0.001166 :    4 : individual 
+frequencia 0.000583 :    2 : performance 
+frequencia 0.000583 :    2 : predict 
+frequencia 0.006414 :   22 : which 
+frequencia 0.000583 :    2 : critics, 
+frequencia 0.000583 :    2 : error 
+frequencia 0.001166 :    4 : models 
+frequencia 0.000583 :    2 : Probabilistic 
+frequencia 0.000583 :    2 : modality. 
+frequencia 0.001749 :    6 : using 
+frequencia 0.000583 :    2 : class 
+frequencia 0.001166 :    4 : correct 
+frequencia 0.004082 :   14 : about 
+frequencia 0.001166 :    4 : beliefs 
+frequencia 0.000583 :    2 : generates 
+frequencia 0.001166 :    4 : associated 
+frequencia 0.001166 :    4 : expert 
+frequencia 0.004082 :   14 : an 
+frequencia 0.002332 :    8 : has 
+frequencia 0.003499 :   12 : data 
+frequencia 0.000583 :    2 : Each 
+frequencia 0.000583 :    2 : critics. 
+frequencia 0.032070 :  110 : and 
+frequencia 0.001166 :    4 : experts 
+frequencia 0.000583 :    2 : concepts 
+frequencia 0.000583 :    2 : explains 
+frequencia 0.000583 :    2 : naturally 
+frequencia 0.013994 :   48 : that 
+frequencia 0.001166 :    4 : framework 
+frequencia 0.001749 :    6 : probabilistic 
+frequencia 0.001166 :    4 : classifiers 
+frequencia 0.001166 :    4 : combination 
+frequencia 0.008746 :   30 : as 
+frequencia 0.000583 :    2 : posed 
+frequencia 0.014577 :   50 : is 
+frequencia 0.001749 :    6 : problem 
+frequencia 0.012245 :   42 : The 
+frequencia 0.000583 :    2 : modalities. 
+frequencia 0.005831 :   20 : from 
+frequencia 0.001749 :    6 : information 
+frequencia 0.000583 :    2 : incorporating 
+frequencia 0.003499 :   12 : by 
+frequencia 0.001166 :    4 : earlier 
+frequencia 0.001166 :    4 : extends 
+frequencia 0.002915 :   10 : This 
+frequencia 0.000583 :    2 : information. 
+frequencia 0.001166 :    4 : channel 
+frequencia 0.000583 :    2 : single 
+frequencia 0.023324 :   80 : a 
+frequencia 0.002915 :   10 : only 
+frequencia 0.007580 :   26 : on 
+frequencia 0.001166 :    4 : focuses 
+frequencia 0.000583 :    2 : computing 
+frequencia 0.004665 :   16 : affective 
+frequencia 0.002915 :   10 : work 
+frequencia 0.041983 :  144 : the 
+frequencia 0.035569 :  122 : of 
+frequencia 0.000583 :    2 : most 
+frequencia 0.000583 :    2 : far, 
+frequencia 0.000583 :    2 : So 
+frequencia 0.000583 :    2 : affect. 
+frequencia 0.001749 :    6 : detect 
+frequencia 0.028571 :   98 : to 
+frequencia 0.000583 :    2 : modalities 
+frequencia 0.001749 :    6 : multiple 
+frequencia 0.000583 :    2 : combining 
+frequencia 0.019242 :   66 : in 
+frequencia 0.000583 :    2 : interested 
+frequencia 0.009329 :   32 : are 
+frequencia 0.005831 :   20 : We 
+frequencia 0.000583 :    2 : **CombiningMultipleModalitiestoDetectLearner'sInterest 
