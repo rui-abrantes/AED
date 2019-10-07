@@ -1,0 +1,12 @@
+Razões:
+
+    1)  Alocamos memória para todas as palavras, no entanto, estas podem (e irão) 
+    repetir-se logo acabamos por não usar grande parte dessa memória.
+    
+    2)  Alocamos memória, assumindo que todas as palavras tem tamanho máximo o que,
+    mais uma vez nos faz alocar memória desnecessário, isto é, no caso de aumentar
+    um carater a memória alocada adicional seria N em vez de 1.
+
+Nota: Uma opção de melhoria para isto tudo seria ir alocando memória à medida a que
+se encontra uma palavra nova, porém isto faz com que o programa demore bastante
+mais tempo devido ao facto de que alocar memória necessite de várias ações.
