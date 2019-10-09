@@ -135,16 +135,12 @@ void AlocaTabelaPalavras ( char *ficheiro, st_texto *t)
 *****************************************************************************/
 int NovaPalavra ( char *palavra, st_texto *t )
 {
-    printf("\n\nABCD : %s\n\n",palavra);
     int i = 0;
     while (i < t->n_dist_palavras)//mudei aqui de n_total, para n_dist
     {
-        printf("\n\nABCD(2) : %s, NUMERO %d\n\n",(*t).palavras[i],i);
         if ( strcmp ( (*t).palavras[i], palavra ) == 0 ) {
-            printf("\n\nABCD(4)\n");
             return (i);
         }            
-        printf("\n\nABCD(3)\n");
         i++;
     }
     return (-1);
@@ -193,7 +189,7 @@ void AlocaPalavra (char *palavra, int tamanho_nova_palavra, int tamanho_tabela ,
 *
 * Arguments: ficheiro - pointer to string holding name of file to open
 *            st_texto - pointer to structure where information will be saved
-* Returns: (none)
+* Returns: ()
 * Side-Effects: none
 *
 * Description:
@@ -219,7 +215,6 @@ void PreencheTabelaPalavras ( char *ficheiro, st_texto *t )
     while ( ( palavras = LePalavra ( f ) ) != NULL ) {
         t->n_total_palavras++;
         if ( ( word_index = NovaPalavra ( palavras, t ) ) == -1 ) {
-            printf("\n\nPALAVRA : %s\n\n",palavras);
             //strcpy(palavras, "banana");
             size = strlen(palavras);
             AlocaPalavra (palavras,size , t->n_dist_palavras ,t);
