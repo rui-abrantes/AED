@@ -186,7 +186,6 @@ int filesysLoadFile(char fid, int *blk) {
   /* INICIO DA PILHA */
   i=0;
   while(1){
-
     if (blk[i] == -1) {
       break;
     }
@@ -259,13 +258,6 @@ int filesysDeleteFile(char fid) {
   }
 
   deleteNextNodeLinkedList(auxiliar, filesysFreeFile);
-
-  // auxiliar = fileList;
-  // while(auxiliar != NULL){
-  //   deletedBlock = (eiNode *) getItemLinkedList(auxiliar);
-  //   printf("\n\nBOAS : %c\n\n", deletedBlock->fileName );
-  //   auxiliar = getNextNodeLinkedList (auxiliar);
-  // }
 
   /* TO BE COMPLETED */
 
