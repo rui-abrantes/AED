@@ -35,5 +35,13 @@ void EscreveFicheiro(t_tabela *t, char *ficheiro, int n_palavras);
 void LibertaTabelaPalavras(t_tabela *t, int nt_palavras);
 
 int  lessAlfabetica(Item a, Item b);
+int  moreAlfabetica(Item a, Item b);
+
+int  lessLenght(Item a, Item b);
+int  moreLenght(Item a, Item b);
+
+int  lessOcorrencias(Item a, Item b);
+int  moreOcorrencias(Item a, Item b);
+
 
 #endif

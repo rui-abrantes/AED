@@ -138,24 +138,24 @@ int main(int argc, char **argv)
             appropriate comparison function selected by user option */
 
         /*==== TODO ====*/
-        Quicksort((Item) tabela, 0, n_palavras - 1, lessAlfabetica);
+        Quicksort( (Item) tabela, 0, n_palavras - 1, lessAlfabetica );
         /* -- sort(....); -- */
 
     }
     else if((criterio == alphabetic) && (sentido == descending)){
-
+        Quicksort( (Item) tabela, 0, n_palavras - 1, moreAlfabetica );
     }
     else if((criterio == occurrences) && (sentido == ascending)){
-
+        Quicksort( (Item) tabela, 0, n_palavras - 1, lessOcorrencias );
     }
     else if((criterio == occurrences) && (sentido == descending)){
-
+        Quicksort( (Item) tabela, 0, n_palavras - 1, moreOcorrencias );
     }
     else if( (criterio == length) && (sentido == ascending)){
-
+        Quicksort( (Item) tabela, 0, n_palavras - 1, lessLenght );
     }
     else if((criterio == length) && (sentido == descending)){
-
+        Quicksort( (Item) tabela, 0, n_palavras - 1, moreLenght );
     }
 
     /*TALVEZ POR AQUI CASO NAO ACONTECA NADA MAS COMO JA SE INICIOA CRITERIO E SENTIDO TUDO FIXE!*/

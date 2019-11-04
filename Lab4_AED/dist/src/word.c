@@ -276,6 +276,14 @@ int lessAlfabetica(Item a, Item b)
         return 0;
 }
 
+int moreAlfabetica(Item a, Item b)
+{
+    if (strcmp(((t_palavra *) a)->nome, ((t_palavra *) b)->nome) > 0)
+        return 1;
+    else
+        return 0;
+}
+
 
 int lessLenght(Item a, Item b)
 {
@@ -284,6 +292,31 @@ int lessLenght(Item a, Item b)
     else
         return 0;
 }
+
+int moreLenght(Item a, Item b)
+{
+    if (sizeof(  ((t_palavra *) a)->nome ) > sizeof(  ((t_palavra *) b)->nome ))
+        return 1;
+    else
+        return 0;
+}
+
+int lessOcorrencias(Item a, Item b)
+{
+    if (sizeof(  ((t_palavra *) a)->ocorrencias ) < sizeof(  ((t_palavra *) b)->ocorrencias ))
+        return 1;
+    else
+        return 0;
+}
+
+int moreOcorrencias(Item a, Item b)
+{
+    if (sizeof(  ((t_palavra *) a)->ocorrencias ) < sizeof(  ((t_palavra *) b)->ocorrencias ))
+        return 1;
+    else
+        return 0;
+}
+
 
 
 /*************************************************************************

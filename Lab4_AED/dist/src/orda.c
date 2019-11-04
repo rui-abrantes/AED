@@ -119,19 +119,19 @@ int main(int argc, char **argv)
 
     }
     else if((criterio == alphabetic) && (sentido == descending)){
-
+        sort( (Item) tabela, 0, n_palavras - 1, moreAlfabetica );
     }
     else if((criterio == occurrences) && (sentido == ascending)){
-
+        sort( (Item) tabela, 0, n_palavras - 1, lessOcorrencias );
     }
     else if((criterio == occurrences) && (sentido == descending)){
-
+        sort( (Item) tabela, 0, n_palavras - 1, moreOcorrencias );
     }
     else if( (criterio == length) && (sentido == ascending)){
-
+        sort( (Item) tabela, 0, n_palavras - 1, lessLenght );
     }
     else if((criterio == length) && (sentido == descending)){
-
+        sort( (Item) tabela, 0, n_palavras - 1, moreLenght );
     }
 
     /*TALVEZ POR AQUI CASO NAO ACONTECA NADA MAS COMO JA SE INICIOA CRITERIO E SENTIDO TUDO FIXE!*/
