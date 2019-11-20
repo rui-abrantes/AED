@@ -77,7 +77,7 @@ int main(int argc, char *argv[])
   sweepBreadth(root);
   putchar('\n'); 
 
-  if (isTreeOrdered(root))
+  if (isTreeOrdered(root, 0 , 1000000))
     printf("The tree is ordered...!\n");
   else
     printf("The tree is not ordered...!\n");

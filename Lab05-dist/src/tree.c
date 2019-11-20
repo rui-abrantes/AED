@@ -31,6 +31,9 @@ struct _Node {
   struct _Node *left, *right;
 };
 
+int getValue(Node * root){
+  return root->value;
+}
 
 /******************************************************************************
  * AllocNode()
@@ -339,24 +342,14 @@ void sweepBreadth(Node *root)
  *
  *****************************************************************************/
 
-Boolean isTreeOrdered(Node * root)
+Boolean isTreeOrdered(Node * root, int min, int max)
 {
-  if (root != NULL) {
-    if(root->left != NULL){
-      if(root->value <  root->left->value)
-        return FALSE;
-    }
-    if(root->right != NULL){
-    if(root->value >  root->right->value)
-      return FALSE;
-    }
-    if(!(isTreeOrdered(root->left)))
-      return FALSE;
-    if(!(isTreeOrdered(root->right)))
-      return FALSE;
-  }
+  if ( root = NULL)
+    return TRUE;
+  if(root->value < min || root->value>max)
+    return FALSE;
 
-  return TRUE;
+  return isTreeOrdered(root->left, min, root->value) && isTreeOrdered(root->right, root->value, max);
 }
 
 
@@ -378,16 +371,18 @@ Boolean isTreeBalanced(Node * root)
 
   if (root != NULL) {
 
-    if(altura(root->left) != altura(root->right))
+    if(altura(root->left) != altura(root->right) && (abs(altura(root->right) - altura(root->left) ) > 1))
       return FALSE;
-    isTreeOrdered(root->left);
-    if(altura(root->left) != altura(root->right) ) 
+    isTreeBalanced(root->left);
+
+    if(altura(root->left) != altura(root->right) && (abs(altura(root->right) - altura(root->left)) > 1) ) 
       return FALSE;
-    isTreeOrdered(root->right);
+    isTreeBalanced(root->right);
   }
 
   return TRUE;
 }
+
 
 
 int altura(Node *h)

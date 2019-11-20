@@ -37,6 +37,7 @@ typedef enum {
 
 typedef struct _Node Node;
 
+int getValue(Node * root);
 Node *AllocNode ();
 Node *NewNode (int num);
 Node *Construct (FILE *fp, char * filename);
