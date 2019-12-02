@@ -5,9 +5,9 @@
 
 typedef struct _Arestas Arestas;
 
-Arestas *           leFicheiroEDGE(char * nomeFicheiro, Arestas * aresta, int ** n_vertices);
+Arestas *           leFicheiroEDGE(char * nomeFicheiro, Arestas * aresta, int * n_arestas, int * n_vertices);
 Arestas * criaAresta(int inicio, int fim, int peso);
-LinkedList ** criaLista(Arestas * aresta, int n_vertices);
+LinkedList ** criaLista(Arestas * aresta, int n_arestas, int n_vertices);
 void escreveFicheiro(char * nomeFicheiro, LinkedList ** lista, int n_vertices);
 
 #endif

@@ -15,10 +15,17 @@ typedef struct _Aresta {
     int peso;
 }Aresta;
 
-Grafo * leFicheiro(char * nomeFicheiro, Grafo * graph){
+Grafo * leFicheiro(char * nomeFicheiro){
 
     FILE * file;
     int i, j, peso;
+    Grafo * graph= NULL;
+
+    graph = (Grafo *) malloc(sizeof(Grafo));
+    if(graph == NULL){
+        printf("\nCouldn't allocate memory for the Grafo\n");
+        exit(0);
+    }
 
     graph->n_arestas = 0;
 
@@ -54,7 +61,7 @@ Grafo * leFicheiro(char * nomeFicheiro, Grafo * graph){
                 exit(1);
             }
             graph->matriz[i][j] = peso;
-            if( peso != 0 && i > j){
+            if( peso != 0 && i < j){
                 graph->n_arestas ++;
             }
         }
@@ -109,8 +116,9 @@ int calculaGrauMax(Grafo * graph){
     return maxGrau;
 }
 
-Aresta * criaVetorAresta(Grafo * graph, Aresta * aresta){
-    int i, j , posicaoAresta = 0, posicao;
+Aresta * criaVetorAresta(Grafo * graph){
+    int i, j , posicaoAresta = 0;
+    Aresta * aresta= NULL;
 
     aresta = (Aresta * ) malloc( graph->n_arestas * sizeof(Aresta));
     if(aresta == NULL){
@@ -120,15 +128,16 @@ Aresta * criaVetorAresta(Grafo * graph, Aresta * aresta){
 
     for(i = 0; i< graph->n_vertices; i++){
         for(j = 0; j< graph->n_vertices; j++){  
-            if(graph->matriz[i][j] != 0 && i > j){
+            if(graph->matriz[i][j] != 0 && i < j){
                 aresta[posicaoAresta].inicio = i;
                 aresta[posicaoAresta].fim = j;
                 aresta[posicaoAresta].peso = graph->matriz[i][j];
-                posicaoAresta ++;
-                         
+                posicaoAresta ++;       
             }
         }
     }
+
+    return aresta;
 }
 
 void ficheiroOut(char * nomeFile, Grafo * graph, Aresta * aresta){
@@ -141,8 +150,8 @@ void ficheiroOut(char * nomeFile, Grafo * graph, Aresta * aresta){
     fprintf(file, "%d\n%d\n", graph->n_vertices, graph->n_arestas);
 
     for( i = 0; i < graph->n_arestas; i++){
-        fprintf(file,"%d %d %d", aresta[i].inicio, aresta[i].fim, aresta[i].peso);
+        fprintf(file,"%d %d %d\n", aresta[i].inicio, aresta[i].fim, aresta[i].peso);
     }
-
+    fclose(file);
 }
 

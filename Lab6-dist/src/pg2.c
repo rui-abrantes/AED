@@ -24,10 +24,10 @@ Arestas * criaAresta(int inicio, int fim, int peso){
     return new;
 }
 
-Arestas * leFicheiroEDGE(char * nomeFicheiro, Arestas * aresta, int * n_vertices){
+Arestas * leFicheiroEDGE(char * nomeFicheiro, Arestas * aresta, int * n_arestas, int * n_vertices){
 
     FILE * file;
-    int i, j, peso, vertices, arestas;
+    int i;
 
     file = fopen(nomeFicheiro, "r");
     if(file == NULL){
@@ -40,48 +40,58 @@ Arestas * leFicheiroEDGE(char * nomeFicheiro, Arestas * aresta, int * n_vertices
         exit(1);
     }
 
-    if( fscanf(file, "%d", arestas) != 1){
+    if( fscanf(file, "%d", n_arestas) != 1){
         printf("\nCouldn't read from the file\n");
         exit(1);
     }
 
-    aresta = (Arestas *) malloc( arestas * sizeof( Arestas  ) );
+    printf("\n\nNUMERO DE ARESTAS : %d \n\n", (*n_arestas));
+    aresta = (Arestas *) malloc( (*n_arestas) * sizeof( Arestas  ) );
     if(aresta == NULL){
         printf("\nCouldn't allocate memory for the lista");
         exit(0);
     }
 
-    for(i = 0; i< arestas; i++){
+    for(i = 0; i< (*n_arestas); i++){
         fscanf(file, "%d %d %d", &aresta[i].inicio, &aresta[i].fim , &aresta[i].peso);
+
     }
+    
     fclose(file);
 
     return aresta;
 }
 
 
-LinkedList ** criaLista(Arestas * aresta, int n_vertices){
+LinkedList ** criaLista(Arestas * aresta, int n_arestas, int n_vertices){
 
-    int i;
+    int i,j;
 
     Arestas * aux = NULL;
 
     LinkedList ** lista;
 
-    lista = (LinkedList **) malloc( n_vertices * sizeof(LinkedList * ));
+    lista = (LinkedList **) calloc( n_vertices , sizeof(LinkedList * ));
     if( lista == NULL){
         printf("\nCouldn't allocate memory for the LinkedList");
         exit(1);
     }
 
     for ( i = 0; i < n_vertices ; i++){
-        if( aresta->inicio == i){
-            aux = criaAresta(i, aresta->fim, aresta->peso) ;
-            lista[i] = insertUnsortedLinkedList(lista[i], (Item) aux);
-        }
-        else if (aresta->fim == i ){
-            aux = criaAresta( aresta->inicio , i, aresta->peso);
-            lista[i] = insertUnsortedLinkedList(lista[i], (Item) aux);
+
+        //printf("\nAresta[%d] -> %d : %d\n",i,aresta[i].inicio, aresta[i].fim);
+
+        for(j = 0; j< n_arestas; j++){
+
+            if( aresta[j].inicio == i){
+                aux = criaAresta(i, aresta[j].fim, aresta[j].peso) ;
+                //printf("\nAresta : [%d]  fim %d\n",i,aux->fim);
+                lista[i] = insertUnsortedLinkedList(lista[i], (Item) aux);
+            } else if (aresta[j].fim == i ){
+                aux = criaAresta( i , aresta[j].inicio, aresta[j].peso);
+                //printf("\nAresta2 : [%d]  inicio %d\n",i, aux->fim);
+                lista[i] = insertUnsortedLinkedList(lista[i], (Item) aux);
+            }
         }
     }
 
@@ -102,13 +112,16 @@ void escreveFicheiro(char * nomeFicheiro, LinkedList ** lista, int n_vertices){
     for(i = 0; i< n_vertices; i++){
         lista_aux = lista[i];
         while(lista_aux != NULL){
+
             aux = getItemLinkedList(lista_aux);
             fprintf(file,"%d:%d ", aux->fim, aux->peso);
+            lista_aux = getNextNodeLinkedList(lista_aux);
 
         }
-        if( lista[i] == NULL){
-            fprintf(file," -1\n");
+        if( lista_aux == NULL){
+            fprintf(file,"-1\n");
         }
     }
+    fprintf(file,"-1\n");
     fclose(file);
 }

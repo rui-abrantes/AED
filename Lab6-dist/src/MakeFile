@@ -1,8 +1,8 @@
 CC = gcc
 CFLAGS=-g -Wall -std=c99 -O3
 
-lab6: labb.o LinkedList.o pg1.o pg2.o
-	$(CC) $(CFLAGS) -o lab labb.o LinkedList.o pg1.o pg2.o
+lab6: lab.o LinkedList.o pg1.o pg2.o
+	$(CC) $(CFLAGS) -o lab lab.o LinkedList.o pg1.o pg2.o
 
 LinkedList.o: LinkedList.h LinkedList.c
 	$(CC) -c $(CFLAGS) LinkedList.c
@@ -10,8 +10,8 @@ LinkedList.o: LinkedList.h LinkedList.c
 pg2.o: pg2.h pg2.c LinkedList.c
 	$(CC) -c $(CFLAGS) pg2.c
 
-pg2.o: pg1.h pg1.c
+pg1.o: pg1.h pg1.c
 	$(CC) -c $(CFLAGS) pg1.c
 
-labb.o: LinkedList.h pg1.h lab.c pg2.h
+lab.o: LinkedList.h pg1.h lab.c pg2.h
 	$(CC) -c $(CFLAGS) lab.c

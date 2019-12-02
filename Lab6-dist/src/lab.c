@@ -10,19 +10,20 @@ int main(int argc, char *argv[]){
     Grafo * graph = NULL;
     LinkedList ** lista;
     Aresta * aresta = NULL;
+    Arestas * arestaPG2 = NULL;
     char * ficheirOut;
     int densidade, grau;
-    int * n_vertices;
+    int n_arestas = 0, n_vertices = 0;
     int i;
 
-    ficheirOut = (char *) malloc((strlen( argv[2] + 2) ) * sizeof(char));
+    ficheirOut = (char *) malloc((strlen( argv[2] ) + 2) * sizeof(char));
 
     if(argc != 3){
         printf("\nYou forgot something, you should do : ./lab pg file.extention ");
         exit(0);
     }
 
-    if( strcmp(argv[1], "pg1")){
+    if( strcmp(argv[1], "pg1") == 0){
         graph = leFicheiro(argv[2]);
 
         densidade = calculaDensidade(graph);
@@ -31,37 +32,39 @@ int main(int argc, char *argv[]){
         grau = calculaGrauMax(graph);
         printf("Grau = %d\n",grau);
 
-        aresta = criaVetorAresta(graph, aresta);
+        aresta = criaVetorAresta(graph);
 
-        argv[2][stren(argv[2] - strlen("adj"))] = '\0';
+        argv[2][strlen(argv[2]) - strlen("adj")] = '\0';
         strcpy(ficheirOut,argv[2]);
         strcat(ficheirOut, "edge");
 
 
         ficheiroOut( ficheirOut,graph,aresta);
         libertaMatriz(graph);
+        free(graph);
         free(aresta);
     }
-    else if (strcmp(argv[1], "pg2") ){
-        aresta = leFicheiroEDGE(argv[2], aresta, n_vertices);
-        lista = criaLista(aresta,(*n_vertices));
+    else if (strcmp(argv[1], "pg2") == 0 ){
+        arestaPG2 = leFicheiroEDGE(argv[2], arestaPG2, &n_arestas, &n_vertices);
+        lista = criaLista(arestaPG2,n_arestas, n_vertices);
 
-        argv[2][stren(argv[2] - strlen("edge"))] = '\0';
-        strcpy(ficheiroOut,argv[2]);
-        strcat(ficheiroOut, "ladj");
+        argv[2][strlen(argv[2]) - strlen("edge")] = '\0';
+        strcpy(ficheirOut, argv[2]);
+        strcat(ficheirOut, "ladj");
 
-        escreveFicheiro(ficheirOut, lista, (*n_vertices));
+        escreveFicheiro(ficheirOut, lista, n_vertices);
 
-        for( i= 0; i< (*n_vertices); i++)
+        for( i= 0; i< n_vertices; i++){
             freeLinkedList(lista[i], free );
+        }
 
         free(lista);
-        free(aresta);
+        free(arestaPG2);
     }
     else
         printf("\nYou choose the wrong pg, try again");
 
-    free(ficheiroOut);
+    free(ficheirOut);
 
     return 0;
 }
